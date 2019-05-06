@@ -12,3 +12,8 @@ while dayUP(dayfactor) < 37.78:
     dayfactor += 0.001
 
 print("工作日的努力参数是：{:.3f}".format(dayfactor))
+
+
+for i in range(12):
+    print(chr(9800+i),end="")
+    

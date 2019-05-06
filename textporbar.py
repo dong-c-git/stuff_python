@@ -9,3 +9,4 @@ for i in range(scale+1):
     print("{:^3.0f}%[{}->{}]".format(c,a,b))
     time.sleep(0.1)
 print("_______执行结束_______")
+
